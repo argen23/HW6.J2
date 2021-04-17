@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ioioioioi"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textAnon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUESS STUDENTS"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+
+        android:id="@+id/anon1"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/anonymous1"
+        app:layout_constraintTop_toBottomOf="@+id/textAnon"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageView
+
+        android:id="@+id/anon2"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/chessgdhfs"
+        app:layout_constraintTop_toBottomOf="@+id/textAnon"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <ImageView
+
+        android:id="@+id/anon3"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/horsduc"
+        app:layout_constraintTop_toBottomOf="@+id/anon1"
+        app:layout_constraintStart_toStartOf="parent"
+
+/>
+
+    <ImageView
+
+        android:id="@+id/anon4"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/earfsef"
+        app:layout_constraintTop_toBottomOf="@+id/anon2"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <EditText
+
+        android:id="@+id/textEdit_one"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/anon3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="15dp"
+        android:background="@drawable/round"
+       />
+    <Button
+        android:id="@+id/EDTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="НАЙТИ УЧЕНИКА"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEdit_one"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
